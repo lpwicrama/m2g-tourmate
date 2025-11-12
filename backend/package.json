@@ -1,0 +1,26 @@
+{
+  "name": "srilanka-travel-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Sri Lanka Travel Guide with Enhanced Routing",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["travel", "srilanka", "api", "routing"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "dotenv": "^16.3.1",
+    "cors": "^2.8.5",
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.0",
+    "@turf/turf": "^6.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
